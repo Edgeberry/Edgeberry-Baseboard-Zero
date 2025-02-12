@@ -1,4 +1,4 @@
-![Edgeberry banner](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_banner_BaseBoard.png?raw=true)
+![Edgeberry banner](documentation/Edgeberry_Zero_banner.png?raw=true)
 
 <img src="documentation/Edgeberry-Zero_rendering.png" align="right" width="50%"/>
 
