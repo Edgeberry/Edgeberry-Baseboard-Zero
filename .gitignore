@@ -1,6 +1,6 @@
 datasheets/
 manufacturing/
-Edgeberry-backups/
+Edgeberry-Zero-backups/
 3dmodel/
 Edgeberry.csv
 Edgeberry.kicad_prl
@@ -11,3 +11,4 @@ _autosave-Edgeberry.kicad_pcb
 *.step
 *.FCBak
 *.stl
+*.kicad_prl
