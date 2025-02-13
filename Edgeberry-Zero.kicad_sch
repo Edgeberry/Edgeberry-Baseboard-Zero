@@ -5,9 +5,9 @@
 	(uuid "3423b69d-31f4-49a7-a31b-7a75e0771985")
 	(paper "A4")
 	(title_block
-		(title "Edgeberry Hardware")
+		(title "Edgeberry Zero")
 		(date "2024-05-15")
-		(rev "1.5")
+		(rev "1.7")
 	)
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_2_3"
@@ -6066,7 +6066,7 @@
 		)
 		(uuid "ff096aa5-8728-4b9b-8345-63c5e314d292")
 	)
-	(text "Copyright© 2024 Sanne 'SpuQ' Santens. This design is released under\nthe CERN OHL-W license on GitHub."
+	(text "Copyright© 2025 Sanne 'SpuQ' Santens. This design is released under\nthe CERN OHL-W license on GitHub."
 		(exclude_from_sim no)
 		(at 181.864 178.816 0)
 		(effects
@@ -6088,7 +6088,7 @@
 		)
 		(uuid "06481be9-17d5-4348-8cf3-2ac380ada025")
 	)
-	(text "Base Board Rev. 1.7, late 2024"
+	(text "Rev. 1.7, early 2025"
 		(exclude_from_sim no)
 		(at 181.864 175.006 0)
 		(effects
@@ -6244,7 +6244,7 @@
 		)
 		(uuid "9dbd9e26-9782-45c4-9403-4d72b07f29de")
 	)
-	(text "EDGEBERRY"
+	(text "EDGEBERRY ZERO"
 		(exclude_from_sim no)
 		(at 181.61 173.736 0)
 		(effects
