@@ -2,7 +2,7 @@
 
 <img src="documentation/Edgeberry-Zero_rendering.png" align="right" width="50%"/>
 
-Designed for the Raspberry Pi Zero, the **Edgeberry Zero** provides several basics an IoT edge device and its real-world deployment. Some key features are a powerful 3A step-down convertor for powering your device reliably using a regular 12V adaptor, indicators for providing status feedback, and an expansion slot for integrating application-specific hardware using an [Edgeberry Hardware Cartridge](https://github.com/SpuQ/Edgeberry-cartridge-console-can). The Edgeberry Hardware is designed to snugly fit in the [Edgeberry Zero Enclosure](https://www.thingiverse.com/thing:6595172).
+The **Edgeberry Zero** provides the necessary components for deploying the Raspberry Pi Zero as an IoT edge device in a real-world environment.
 
 - **12 to 24VDC input power supply** for reliably powering the device with up to 3A at 5V.
 - **Indicators and button** for providing status feedback and device interaction
