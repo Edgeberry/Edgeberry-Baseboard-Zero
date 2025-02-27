@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -550,8 +550,8 @@
       "gencad": "EdgeBerry.cad",
       "idf": "EdgeBerry.emn",
       "netlist": "",
-      "plot": "manufacturing/Edgeberry_v1-7_PCB/",
-      "pos_files": "manufacturing/Edgeberry_v1-7_Assembly/",
+      "plot": "manufacturing/EdgeberryZero_v1-0_PCB/",
+      "pos_files": "manufacturing/Edgeberry_Zero_v1-0_Assembly/",
       "specctra_dsn": "EdgeBerry.dsn",
       "step": "EdgeBerry.step",
       "svg": "",
