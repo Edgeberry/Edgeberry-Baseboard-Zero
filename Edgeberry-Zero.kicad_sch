@@ -10,7 +10,7 @@
 		(rev "1.7")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "Conn_01x04_Socket"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -85,10 +85,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -100,7 +124,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -112,7 +136,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -124,7 +148,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -134,52 +158,32 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -197,7 +201,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -215,7 +219,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -233,7 +237,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -4960,6 +4964,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 96.52) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5f40ad-8230-4939-a102-38d71a12ec7e")
+	)
+	(wire
+		(pts
 			(xy 33.02 88.9) (xy 34.29 88.9)
 		)
 		(stroke
@@ -5087,16 +5101,6 @@
 			(type default)
 		)
 		(uuid "2d341ec8-52db-4a55-ab01-049f3d95b737")
-	)
-	(wire
-		(pts
-			(xy 139.7 171.45) (xy 142.24 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edc9466-bba4-4761-8c4d-e8fd64200ea0")
 	)
 	(wire
 		(pts
@@ -5380,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6065c2da-14d3-4467-8dcb-986b1eb0863a")
+	)
+	(wire
+		(pts
 			(xy 219.71 148.59) (xy 219.71 144.78)
 		)
 		(stroke
@@ -5537,16 +5551,6 @@
 			(type default)
 		)
 		(uuid "78e81778-93af-435e-a586-e84f43c1e8cf")
-	)
-	(wire
-		(pts
-			(xy 139.7 168.91) (xy 142.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b17e0c7-77ec-4b20-99d1-17ad4278c76d")
 	)
 	(wire
 		(pts
@@ -5760,16 +5764,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 173.99) (xy 142.24 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04ac34b-edcc-49b2-8dcd-3f3e1c791262")
-	)
-	(wire
-		(pts
 			(xy 119.38 43.18) (xy 121.92 43.18)
 		)
 		(stroke
@@ -5867,6 +5861,16 @@
 			(type default)
 		)
 		(uuid "b65138b6-ec22-4ff0-85bf-05c5a7e8fafa")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ae0ee1-e1bb-40fd-bf11-7f05309345e1")
 	)
 	(wire
 		(pts
@@ -6150,6 +6154,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 93.98) (xy 210.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2be5799-7c52-4185-9e30-7fe2560fdeb8")
+	)
+	(wire
+		(pts
 			(xy 242.57 63.5) (xy 245.11 63.5)
 		)
 		(stroke
@@ -6227,16 +6241,6 @@
 			(type default)
 		)
 		(uuid "ecf9017f-939f-452e-9b18-938b7000d9cb")
-	)
-	(wire
-		(pts
-			(xy 139.7 176.53) (xy 142.24 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc1754c-fad6-4406-ab29-3601803c9dc2")
 	)
 	(wire
 		(pts
@@ -6370,7 +6374,7 @@
 		)
 		(uuid "06481be9-17d5-4348-8cf3-2ac380ada025")
 	)
-	(text "Rev. 1.7, early 2025"
+	(text "Rev. 1.8, early 2025"
 		(exclude_from_sim no)
 		(at 181.864 175.006 0)
 		(effects
@@ -6492,6 +6496,19 @@
 			(justify left bottom)
 		)
 		(uuid "73c4cd56-fccd-4694-b5c7-de65ffb51867")
+	)
+	(text "EXP"
+		(exclude_from_sim no)
+		(at 202.184 90.932 0)
+		(effects
+			(font
+				(size 2.4892 2.4892)
+				(thickness 0.4978)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa2365c-a35c-440a-a14d-64c04f1362e7")
 	)
 	(text "Only for programming the EEPROM with the 'hat'\ninformation the WP pin (Write Protection) must\nbe pulled low by the manufacturer. For normal\nuse, write protection is enabled by pulling the\npull-up resistor"
 		(exclude_from_sim no)
@@ -6934,28 +6951,6 @@
 			)
 		)
 	)
-	(global_label "ID_SDA"
-		(shape input)
-		(at 142.24 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cf6a883-d3f1-410d-8440-c980998c4bc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9747 176.4506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_CS1"
 		(shape input)
 		(at 245.11 48.26 0)
@@ -7168,28 +7163,6 @@
 			)
 		)
 	)
-	(global_label "ID_SCL"
-		(shape input)
-		(at 142.24 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c61ed38-8065-4133-a648-c3b49f372fe1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9142 173.9106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 212.09 73.66 180)
@@ -7293,6 +7266,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ID_SDA"
+		(shape input)
+		(at 209.55 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93f87513-a647-4c42-b797-093b90886a91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8085 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7464,6 +7459,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ID_SCL"
+		(shape input)
+		(at 209.55 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7c6a945-6c48-4de8-8462-2bca94058dcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.869 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8548,7 +8565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "220uF"
 			(at 220.345 143.51 0)
 			(effects
 				(font
@@ -9661,7 +9678,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "470R"
 			(at 240.03 135.89 0)
 			(effects
 				(font
@@ -11492,73 +11509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19c11575-772e-440e-b8f2-41de8bc8a87d")
-		(property "Reference" "#PWR9"
-			(at 148.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f78800a-bd78-446c-b426-de135e16b3d1")
-		)
-		(instances
-			(project "Edgeberry-Zero"
-				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
-					(reference "#PWR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 54.61 59.69 180)
 		(unit 1)
@@ -11873,24 +11823,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 134.62 171.45 0)
+		(lib_id "EdgeBerry-rescue:+3V3")
+		(at 209.55 96.52 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "564ce760-6d65-4ca8-a4df-090edb6ac092")
-		(property "Reference" "J4"
-			(at 135.128 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 134.62 179.07 0)
+		(uuid "3f6bdf43-92b0-48d3-89e4-09b30c37424a")
+		(property "Reference" "#PWR23"
+			(at 213.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,26 +11841,32 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 134.62 171.45 0)
+		(property "Value" "+3V3"
+			(at 203.454 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 171.45 0)
+		(property "Footprint" ""
+			(at 209.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 134.62 171.45 0)
+		(property "Datasheet" ""
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,21 +11875,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "a115f2bd-5c3b-495f-9f11-1f234da07b20")
-		)
-		(pin "4"
-			(uuid "c953b8f9-bb15-4c6f-a165-2d37afd72dfb")
-		)
-		(pin "3"
-			(uuid "6ece0ff7-2fbb-42f7-ac7c-401252ac5f26")
-		)
-		(pin "2"
-			(uuid "3625f89c-fa92-401c-932b-c66290ed90b9")
+			(uuid "c2bced03-b181-46a8-9a81-7323fdf5ed64")
 		)
 		(instances
-			(project ""
+			(project "Edgeberry-Zero"
 				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
-					(reference "J4")
+					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e8aee8-d613-40de-baa3-961f45cef441")
+		(property "Reference" "#PWR15"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bd5224b-55c5-4178-9491-52c2a5fe3998")
+		)
+		(instances
+			(project "Edgeberry-Zero"
+				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -12074,6 +12082,83 @@
 			(project "Edgeberry"
 				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 215.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90315625-a811-4630-a3bd-cfdc9b2f2248")
+		(property "Reference" "J4"
+			(at 217.17 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 217.17 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Horizontal"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3abf59ff-cba5-44d9-82a0-bb4ee5b8b4e7")
+		)
+		(pin "2"
+			(uuid "a188bb63-7863-4d29-911c-f4ec86ee19fc")
+		)
+		(pin "1"
+			(uuid "706d39b0-3121-4850-92a2-77b653877729")
+		)
+		(pin "4"
+			(uuid "d97e98d4-84c2-4e5f-be77-883468a16828")
+		)
+		(instances
+			(project ""
+				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12493,69 +12578,6 @@
 			(project "Edgeberry"
 				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EdgeBerry-rescue:+3V3")
-		(at 142.24 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d966dfed-847a-492f-ae60-9140820c1a90")
-		(property "Reference" "#PWR7"
-			(at 138.43 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 148.336 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7c85f0a-4507-400c-b96a-81955a0b75a8")
-		)
-		(instances
-			(project "Edgeberry-Zero"
-				(path "/3423b69d-31f4-49a7-a31b-7a75e0771985"
-					(reference "#PWR7")
 					(unit 1)
 				)
 			)

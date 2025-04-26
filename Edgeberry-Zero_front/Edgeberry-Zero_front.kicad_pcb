@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Value" "PinSocket_1x04_P2.54mm_Vertical"
-			(at 7.8 -4.6 180)
+			(at 7.8 -4.6 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cc5ed521-cbc4-4dc7-baf4-2826d4dacba5")
@@ -422,6 +422,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/home/tom/Projects/KiCad_library/3D models/Elecrow_display.step"
+			(offset
+				(xyz -6.9 15.8 -1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 180 -90)
+			)
+		)
 	)
 	(gr_poly
 		(pts
@@ -460,7 +471,7 @@
 	)
 	(gr_line
 		(start 188.3 109.7)
-		(end 128.5 109.7)
+		(end 129.2 109.7)
 		(locked yes)
 		(stroke
 			(width 0.1)
@@ -471,7 +482,7 @@
 	)
 	(gr_line
 		(start 186.8 115.3)
-		(end 130 115.3)
+		(end 130.7 115.3)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -482,7 +493,7 @@
 	)
 	(gr_line
 		(start 186.8 113.5)
-		(end 130 113.5)
+		(end 130.7 113.5)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -503,9 +514,9 @@
 		(uuid "01ef118b-9107-4153-bf25-d9512c4d587b")
 	)
 	(gr_arc
-		(start 128.5 101.9)
-		(mid 129.232233 100.132233)
-		(end 131 99.4)
+		(start 129.2 101.9)
+		(mid 129.932233 100.132233)
+		(end 131.7 99.4)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -516,7 +527,7 @@
 	)
 	(gr_line
 		(start 185.8 99.4)
-		(end 131 99.4)
+		(end 131.7 99.4)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -526,8 +537,8 @@
 		(uuid "43103f8d-1e8d-4cf9-8ca1-a44bf78a4f0c")
 	)
 	(gr_line
-		(start 130 113.5)
-		(end 128.5 113.5)
+		(start 130.7 113.5)
+		(end 129.2 113.5)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -537,8 +548,8 @@
 		(uuid "4ee5c6b5-6795-416b-b435-7682049a63a1")
 	)
 	(gr_line
-		(start 130 113.5)
-		(end 130 115.3)
+		(start 130.7 113.5)
+		(end 130.7 115.3)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -548,7 +559,7 @@
 		(uuid "4f640a35-3735-4259-a7cc-5197dc3373d0")
 	)
 	(gr_line
-		(start 131 120)
+		(start 131.7 120)
 		(end 185.8 120)
 		(locked yes)
 		(stroke
@@ -559,9 +570,9 @@
 		(uuid "556a7cad-7960-4d3c-b10b-b8b2a7fc6467")
 	)
 	(gr_arc
-		(start 131 120)
-		(mid 129.232233 119.267767)
-		(end 128.5 117.5)
+		(start 131.7 120)
+		(mid 129.932233 119.267767)
+		(end 129.2 117.5)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -605,8 +616,8 @@
 		(uuid "be913d38-3545-4d37-92c8-2a410fc8e7a0")
 	)
 	(gr_line
-		(start 130 115.3)
-		(end 128.5 115.3)
+		(start 130.7 115.3)
+		(end 129.2 115.3)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -639,8 +650,8 @@
 		(uuid "d742fe94-f064-4bc7-b040-da2b22eda05f")
 	)
 	(gr_line
-		(start 128.5 113.5)
-		(end 128.5 101.9)
+		(start 129.2 113.5)
+		(end 129.2 101.9)
 		(locked yes)
 		(stroke
 			(width 0.05)
@@ -661,8 +672,8 @@
 		(uuid "dc3e5a29-529c-4ac4-b711-15af4e1689db")
 	)
 	(gr_line
-		(start 128.5 117.5)
-		(end 128.5 115.3)
+		(start 129.2 117.5)
+		(end 129.2 115.3)
 		(locked yes)
 		(stroke
 			(width 0.05)
