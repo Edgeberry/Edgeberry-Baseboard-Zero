@@ -7,7 +7,7 @@
 	(title_block
 		(title "Edgeberry Zero")
 		(date "2024-05-15")
-		(rev "1.7")
+		(rev "1.8")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
@@ -4964,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 210.82 96.52)
+			(xy 260.35 107.95) (xy 261.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5384,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 210.82 99.06)
+			(xy 260.35 110.49) (xy 261.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5864,7 +5864,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 101.6) (xy 210.82 101.6)
+			(xy 260.35 113.03) (xy 261.62 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6154,7 +6154,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 210.82 93.98)
+			(xy 260.35 105.41) (xy 261.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6374,7 +6374,7 @@
 		)
 		(uuid "06481be9-17d5-4348-8cf3-2ac380ada025")
 	)
-	(text "Rev. 1.8, early 2025"
+	(text "BASE BOARD Rev. 1.8, early 2025"
 		(exclude_from_sim no)
 		(at 181.864 175.006 0)
 		(effects
@@ -6449,9 +6449,33 @@
 		)
 		(uuid "41cd32a6-18c1-4e73-8ff6-512e12117aae")
 	)
+	(text "Vin PWR"
+		(exclude_from_sim no)
+		(at 250.444 132.08 0)
+		(effects
+			(font
+				(size 2.4892 2.4892)
+				(thickness 0.4978)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "45e0e52e-23eb-450d-9caa-4cc08a538eef")
+	)
+	(text "Brings the Raspberry Pi Zero's\nI2C0 port to the edge of the \nboard"
+		(exclude_from_sim no)
+		(at 248.158 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57734c10-c95e-4a49-89f2-025c797d8e23")
+	)
 	(text "RPi HAT ID EEPROM"
 		(exclude_from_sim no)
-		(at 20.32 116.84 0)
+		(at 20.32 120.65 0)
 		(effects
 			(font
 				(size 2.4892 2.4892)
@@ -6499,7 +6523,7 @@
 	)
 	(text "EXP"
 		(exclude_from_sim no)
-		(at 202.184 90.932 0)
+		(at 247.396 94.234 0)
 		(effects
 			(font
 				(size 2.4892 2.4892)
@@ -7272,7 +7296,7 @@
 	)
 	(global_label "ID_SDA"
 		(shape input)
-		(at 209.55 101.6 180)
+		(at 260.35 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7282,7 +7306,7 @@
 		)
 		(uuid "93f87513-a647-4c42-b797-093b90886a91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8085 101.6 0)
+			(at 251.6085 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7489,7 @@
 	)
 	(global_label "ID_SCL"
 		(shape input)
-		(at 209.55 99.06 180)
+		(at 260.35 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7475,7 +7499,7 @@
 		)
 		(uuid "b7c6a945-6c48-4de8-8462-2bca94058dcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.869 99.06 0)
+			(at 251.669 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+Vin"
 			(at 165.1 129.54 0)
 			(effects
 				(font
@@ -11591,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+Vin"
 			(at 254 137.16 0)
 			(effects
 				(font
@@ -11824,7 +11848,7 @@
 	)
 	(symbol
 		(lib_id "EdgeBerry-rescue:+3V3")
-		(at 209.55 96.52 90)
+		(at 260.35 107.95 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11833,7 +11857,7 @@
 		(dnp no)
 		(uuid "3f6bdf43-92b0-48d3-89e4-09b30c37424a")
 		(property "Reference" "#PWR23"
-			(at 213.36 96.52 0)
+			(at 264.16 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +11866,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 203.454 96.52 90)
+			(at 254.254 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +11874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 96.52 0)
+			(at 260.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,7 +11882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 96.52 0)
+			(at 260.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 96.52 0)
+			(at 260.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +11912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 93.98 270)
+		(at 260.35 105.41 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11898,7 +11922,7 @@
 		(fields_autoplaced yes)
 		(uuid "56e8aee8-d613-40de-baa3-961f45cef441")
 		(property "Reference" "#PWR15"
-			(at 203.2 93.98 0)
+			(at 254 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 93.9799 90)
+			(at 256.54 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +11940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 93.98 0)
+			(at 260.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +11949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 93.98 0)
+			(at 260.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +11958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 93.98 0)
+			(at 260.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12027,7 +12051,7 @@
 		(dnp no)
 		(uuid "8a9dd820-4ec5-4959-94a2-489c1e5fdf0f")
 		(property "Reference" "J1"
-			(at 262.89 142.2399 0)
+			(at 262.89 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,16 +12113,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 215.9 96.52 0)
+		(at 266.7 110.49 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90315625-a811-4630-a3bd-cfdc9b2f2248")
 		(property "Reference" "J4"
-			(at 217.17 96.5199 0)
+			(at 267.716 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,7 +12131,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 217.17 99.0599 0)
+			(at 267.97 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12117,7 +12141,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Horizontal"
-			(at 215.9 96.52 0)
+			(at 266.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +12150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 96.52 0)
+			(at 266.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12159,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 215.9 96.52 0)
+			(at 266.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
