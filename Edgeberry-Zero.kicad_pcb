@@ -6427,7 +6427,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/documentation/Edgeberry-Zero_Enclosure.step"
-			(hide yes)
 			(offset
 				(xyz 24 82.5 5)
 			)
@@ -13123,7 +13122,7 @@
 		(descr "Through hole angled socket strip, 1x04, 2.00mm pitch, 6.35mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x04 2.00mm single row")
 		(property "Reference" "J4"
-			(at -6.7 -8.5 360)
+			(at -6.7 -8.5 0)
 			(layer "B.SilkS")
 			(uuid "926724c3-b777-4271-9ace-06cdc4b1b36d")
 			(effects
@@ -13135,7 +13134,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at -3.31 -8.5 360)
+			(at -3.31 -8.5 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1f4027c-c66c-44ac-865e-19d43e4f95a3")
