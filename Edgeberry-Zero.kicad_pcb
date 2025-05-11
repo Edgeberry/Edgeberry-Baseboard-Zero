@@ -13831,15 +13831,14 @@
 			)
 		)
 		(model "${KIPRJMOD}/Edgeberry-Zero_front/Edgeberry-Zero_front.wrl"
-			(hide yes)
 			(offset
-				(xyz -10 17.2 3.9)
+				(xyz -10.4 -23.3 -5.6)
 			)
 			(scale
 				(xyz 0.3955 0.3955 0.3955)
 			)
 			(rotate
-				(xyz -90 0 90)
+				(xyz -90 -180 90)
 			)
 		)
 	)
