@@ -6427,6 +6427,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/documentation/Edgeberry-Zero_Enclosure.step"
+			(hide yes)
 			(offset
 				(xyz 24 82.5 5)
 			)
@@ -13831,6 +13832,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/Edgeberry-Zero_front/Edgeberry-Zero_front.wrl"
+			(hide yes)
 			(offset
 				(xyz -10.4 -23.3 -5.6)
 			)

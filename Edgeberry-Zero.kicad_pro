@@ -555,7 +555,7 @@
       "specctra_dsn": "EdgeBerry.dsn",
       "step": "EdgeBerry.step",
       "svg": "",
-      "vrml": "EdgeBerry.wrl"
+      "vrml": "../../../Freya-Edgeberry/Freya-controller/Enclosure/EBZero.wrl"
     },
     "page_layout_descr_file": ""
   },

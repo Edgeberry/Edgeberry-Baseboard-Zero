@@ -14,3 +14,4 @@ _autosave-Edgeberry.kicad_pcb
 *.stl
 *.kicad_prl
 *.3mf
+documentation/*.FCStd
