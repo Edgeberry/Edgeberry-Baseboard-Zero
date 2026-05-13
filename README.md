@@ -24,6 +24,7 @@ The enclosure, designed in FreeCAD, protects the device from the challenges of t
 2) Enclosure
 3) Faceplate back
 4) Sticker
+5) Mounting groove
 
 <br clear="left"/>
 
