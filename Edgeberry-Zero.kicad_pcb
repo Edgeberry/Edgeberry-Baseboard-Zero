@@ -6426,13 +6426,12 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/documentation/Edgeberry-Zero_Enclosure.step"
-			(hide yes)
+		(model "${KIPRJMOD}/documentation/Edgeberry-Zero_Enclosure_2-1.wrl"
 			(offset
 				(xyz 24 82.5 5)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.3937 0.3937 0.3937)
 			)
 			(rotate
 				(xyz -90 0 0)
