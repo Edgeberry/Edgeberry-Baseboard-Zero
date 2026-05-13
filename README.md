@@ -6,7 +6,7 @@ The **Edgeberry Zero** provides essential additional functionality for deploying
 
 - **12 to 24VDC input power supply** for reliably powering the device with up to 3A at 5V.
 - **Indicators and button** for providing status feedback and device interaction
-- **Expansion slot** for Edgeberry Hardware Cartridges
+- **Expansion slot** for application-specific Edgeberry Hardware Cartridges
 - **Robust enclosure** for withstanding the environmental challenges of the real world
 
 <br/>
