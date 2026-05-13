@@ -16,7 +16,16 @@ The **Edgeberry Zero** provides essential additional functionality for deploying
 For using your Edgeberry hardware with the Edgeberry ecosystem (e.g. the Edgeberry Dashboard), you'll need to install the [Edgeberry Device Software](https://github.com/Edgeberry/Edgeberry/). Follow [these installation steps](https://github.com/Edgeberry/Edgeberry?tab=readme-ov-file#installation). If you have different plans with this board, this software is not required for correct operation of any of its hardware components.
 
 ## Enclosure
-![Edgeberry banner](documentation/Enclosure_drawing.png?raw=true)
+The enclosure, designed in FreeCAD, protects the device from the challenges of the physical world.
+
+<img src="documentation/Enclosure_drawing.png" align="right" width="50%"/>
+
+1) Faceplate front
+2) Enclosure
+3) Faceplate back
+4) Sticker
+
+<br clear="right"/>
 
 
 ## (re)Writing the EEPROM
