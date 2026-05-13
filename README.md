@@ -18,14 +18,14 @@ For using your Edgeberry hardware with the Edgeberry ecosystem (e.g. the Edgeber
 ## Enclosure
 The enclosure, designed in FreeCAD, protects the device from the challenges of the physical world.
 
-<img src="documentation/Enclosure_drawing.png" align="right" width="50%"/>
+<img src="documentation/Enclosure_drawing.png" align="left" width="50%"/>
 
 1) Faceplate front
 2) Enclosure
 3) Faceplate back
 4) Sticker
 
-<br clear="right"/>
+<br clear="left"/>
 
 
 ## (re)Writing the EEPROM
